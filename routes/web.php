@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home/Welcome',[\App\Http\Controllers\HomeController::class,'welc'])->name('welcome');
+Route::get('/home/Document',[\App\Http\Controllers\HomeController::class,'doc'])->name('document');
