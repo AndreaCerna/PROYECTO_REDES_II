@@ -107,8 +107,10 @@
                             <a href="#" > <img src="{{asset('imagenes/anillo.png')}}" width="300" height="200"></a>
 
                             <p align="justify">
-                                Es un tipo de topología de red simple, en donde las estaciones de trabajo o computadoras, se encuentran conectadas entre sí en forma de un anillo,
-                                es decir, forman un círculo entre ellas. La información viaja en un solo sentido, por lo tanto, que si un nodo deja de funcionar se cae la red o
+                                Es un tipo de topología de red simple, en donde las estaciones de trabajo o computadoras, se encuentran conectadas entre
+                                sí en forma de un anillo,
+                                es decir, forman un círculo entre ellas. La información viaja en un solo sentido, por lo tanto, que si un nodo deja de
+                                funcionar se cae la red o
                                 deja de abastecer información a las demás computadoras que se encuentran dentro del anillo, por lo tanto, es poco eficaz.
                             </p>
 
@@ -117,9 +119,12 @@
                             <div class=" col-10 offset-1">
                             <a href="#" > <img src="{{asset('imagenes/arbol.png')}}" width="300" height="200"></a>
                             <p align="justify">
-                                Este tipo de topología de red es una de las más sencillas. Como su nombre lo indica, las conexiones entre los nodos (terminales o computadoras)
-                                están dispuestas en forma de árbol, con una punta y una base. Es similar a la topología de estrella y se basa directamente en la topología de bus.
-                                Si un nodo falla, no se presentan problemas entre los nodos subsiguientes. Cuenta con un cable principal llamado Backbone, que lleva la comunicación
+                                Este tipo de topología de red es una de las más sencillas. Como su nombre lo indica, las conexiones entre los nodos
+                                (terminales o computadoras)
+                                están dispuestas en forma de árbol, con una punta y una base. Es similar a la topología de estrella y se basa directamente
+                                en la topología de bus.
+                                Si un nodo falla, no se presentan problemas entre los nodos subsiguientes. Cuenta con un cable principal
+                                llamado Backbone, que lleva la comunicación
                                 a todos los nodos de la red, compartiendo un mismo canal de comunicación.
                             </p>
 
