@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 Route::get('/home/Welcome',[\App\Http\Controllers\HomeController::class,'welc'])->name('welcome');
 Route::get('/home/Document',[\App\Http\Controllers\HomeController::class,'doc'])->name('document');
+Route::get('/home/Configuraciones',[\App\Http\Controllers\HomeController::class,'config'])->name('configuracion');
+Route::post('/formulario2', [\App\Http\Controllers\HomeController::class, 'save'])->name('save');

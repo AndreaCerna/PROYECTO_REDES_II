@@ -249,64 +249,63 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <h5>Modelo OSI</h5>
+                        <h5>Router </h5>
                         <div class=" col-10 offset-1">
-                            <a href="#" > <img src="{{asset('imagenes/osi.png')}}" width="400" height="500"></a>
+                            <a href="#" > <img src="{{asset('imagenes/router.png')}}" width="400" height="300"></a>
 
                             <p align="justify">
-                                El modelo de interconexión de sistemas abiertos (OSI, por sus siglas en inglés) es un modelo conceptual,
-                                creado por la Organización Internacional de Normalización (ISO), que permite que diversos sistemas de
-                                comunicación se comuniquen usando protocolos estándar. En resumidas cuentas, el modelo OSI proporciona
-                                a los diferentes sistemas informáticos un estándar para comunicarse entre sí.
+                                Dispositivo de la capa de red, los routers permiten la comunicación entre redes, gestionando y encaminando
+                                los paquetes desde una red a otra.
 
-                            </p>
-                            <p align="justify">
 
-                                El modelo OSI se puede entender como un lenguaje universal de comunicación entre sistemas de redes informáticas
-                                que consiste en dividir un sistema de comunicación en siete capas abstractas, apiladas en vertical.
-                            </p>
+
+                        </div>
+                        <h5>Switch</h5>
+                        <div class=" col-10 offset-1">
+                            <a href="#" > <img src="{{asset('imagenes/switch.jpg')}}" width="400" height="300"></a>
                             <p align="justify">
-                                Aunque la red moderna de Internet no se adhiere estrictamente al modelo OSI (más bien al conjunto de
-                                protocolos de Internet más sencillo), este continúa siendo muy útil de cara a la resolución de diversos
-                                problemas de red. Tanto si se trata de una persona que no puede acceder a Internet utilizando su portátil
-                                o la interrupción de una página web que impide el acceso a miles de usuarios, el modelo OSI puede ayudar
-                                a reducir el problema y aislar la fuente del mismo. Si el problema se puede reducir a una capa específica
-                                del modelo, se puede evitar mucho trabajo innecesario.
+                                El switch es hoy por hoy el dispositivo de networking más conocido y utilizado, la tecnología
+                                Ethernet evolucionó en un dispositivo con circuitos de aplicación específica -ASIC- contribuyendo en las funciones
+                                de filtrado y memorización para una gestión adecuada en las redes locales.
                             </p>
 
                         </div>
-                        <h5>TCP/IP</h5>
+
+                        <h5>Firewall</h5>
                         <div class=" col-10 offset-1">
-                            <a href="#" > <img src="{{asset('imagenes/tcpip.png')}}" width="400" height="500"></a>
+                            <a href="#" > <img src="{{asset('imagenes/Firewall.png')}}" width="400" height="300"></a>
+                            <a href="#" > <img src="{{asset('imagenes/firewall-funcionamiento.png')}}" width="400" height="300"></a>
                             <p align="justify">
-                                TCP/IP son las siglas de Transmission Control Protocol/Internet Protocol
-                                (Protocolo de control de transmisión/Protocolo de Internet). TCP/IP es un conjunto de reglas
-                                estandarizadas que permiten a los equipos comunicarse en una red como Internet.
-                                Una interacción determinada puede darse entre dos sistemas informáticos o involucrar
-                                cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano,
-                                cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos
-                                deben saber, por adelantado, cómo se espera que se comuniquen.
+                                El firewall o cortafuegos es un dispositivo utilizado desde la capa de red hasta la capa
+                                de aplicación, proveyendo funciones de seguridad para proteger las redes locales de las redes externas.
                             </p>
-                            <p align="justify">
-                                TCP e IP son dos protocolos distintos para redes informáticas.
 
+                        </div>
+
+                        <h5>Nic</h5>
+                        <div class=" col-10 offset-1">
+                            <a href="#" > <img src="{{asset('imagenes/Nic.png')}}" width="400" height="300"></a>
+                            <p align="justify">
+                                El adaptador de red o network card interface (NIC) provee la interfaz necesaria entre los hosts o nodos
+                                terminales y el medio físico, que puede ser cableado o inalámbrico, la NIC se ubica en la capa de enlace en el modelo de la red.
                             </p>
-                            <p align="justify">
-                                IP es la parte que obtiene la dirección a la que se envían los datos. TCP se encarga de la
-                                entrega de los datos una vez hallada dicha dirección IP.
 
+                        </div>
+                        <h5>Bridge</h5>
+                        <div class=" col-10 offset-1">
+                            <a href="#" > <img src="{{asset('imagenes/bridge.gif')}}" width="400" height="300"></a>
+                            <p align="justify">
+                                El puente o bridge como se le conoce en inglés, es un dispositivo por software que permite unir dos
+                                redes como si se tratasen de una sola por lo que extiende el broadcast de una red, esto sucede ya que el puente funciona en capa dos.
                             </p>
+
+                        </div>
+                        <h5>Modem</h5>
+                        <div class=" col-10 offset-1">
+                            <a href="#" > <img src="{{asset('imagenes/Modem.png')}}" width="400" height="300"></a>
                             <p align="justify">
-
-                                Es posible separarlos, pero lo cierto es que no tiene mucho sentido diferenciar entre TCP e IP.
-                                Como se usan juntos tan habitualmente, “TCP/IP” y “modelo TCP/IP” son ya terminología reconocida.
-
-                            </p>
-                            <p align="justify">
-
-                                Mírelo de esta forma: La dirección IP es como el número de teléfono que se asigna a su smartphone.
-                                TCP es toda la tecnología que hace que el teléfono emita un timbre al recibir una llamada y que le
-                                permite hablar con alguien al otro lado de la línea. Son cosas diferentes, pero tampoco tienen sentido la una sin la otra.
+                                El puente o bridge como se le conoce en inglés, es un dispositivo por software que permite unir dos redes como
+                                si se tratasen de una sola por lo que extiende el broadcast de una red, esto sucede ya que el puente funciona en capa dos.
                             </p>
 
                         </div>
@@ -324,65 +323,53 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <h5>Modelo OSI</h5>
+                        <h5>IPV4 </h5>
                         <div class=" col-10 offset-1">
-                            <a href="#" > <img src="{{asset('imagenes/osi.png')}}" width="400" height="500"></a>
+                            <a href="#" > <img src="{{asset('imagenes/IPv4.png')}}" width="400" height="400"></a>
+
 
                             <p align="justify">
-                                El modelo de interconexión de sistemas abiertos (OSI, por sus siglas en inglés) es un modelo conceptual,
-                                creado por la Organización Internacional de Normalización (ISO), que permite que diversos sistemas de
-                                comunicación se comuniquen usando protocolos estándar. En resumidas cuentas, el modelo OSI proporciona
-                                a los diferentes sistemas informáticos un estándar para comunicarse entre sí.
 
+                                Para entender el por que el espacio de direcciones IPv4 es limitado a 4.3 mil millones de direcciones, podemos
+                                descomponer una dirección IPv4. Una dirección IPv4 es un número de 32 bits formado por cuatro octetos (números de 8 bits)
+                                en una notación decimal, separados por puntos. Un bit puede ser tanto un 1 como un 0 (2 posibilidades), por lo tanto la notación
+                                decimal de un octeto tendría 2 elevado a la 8va potencia de distintas posibilidades (256 de ellas para ser exactos).
+                                Ya que nosotros empezamos a contar desde el 0, los posibles valores de un octeto en una dirección IP van de 0 a 255.
                             </p>
                             <p align="justify">
-
-                                El modelo OSI se puede entender como un lenguaje universal de comunicación entre sistemas de redes informáticas
-                                que consiste en dividir un sistema de comunicación en siete capas abstractas, apiladas en vertical.
+                                Ejemplos de direcciones IPv4: 192.168.0.1, 66.228.118.51, 173.194.33.16
                             </p>
                             <p align="justify">
-                                Aunque la red moderna de Internet no se adhiere estrictamente al modelo OSI (más bien al conjunto de
-                                protocolos de Internet más sencillo), este continúa siendo muy útil de cara a la resolución de diversos
-                                problemas de red. Tanto si se trata de una persona que no puede acceder a Internet utilizando su portátil
-                                o la interrupción de una página web que impide el acceso a miles de usuarios, el modelo OSI puede ayudar
-                                a reducir el problema y aislar la fuente del mismo. Si el problema se puede reducir a una capa específica
-                                del modelo, se puede evitar mucho trabajo innecesario.
+                                Si una dirección IPv4 está hecha de cuatro secciones con 256 posibilidades en cada sección,
+                                para encontrar el número de total de direcciones IPv4, solo debes de multiplicar 256*256*256*256 para encontrar
+                                como resultado 4,294,967,296 direcciones. Para ponerlo de otra forma, tenemos 32 bits entonces, 2 elevado a la 32va
+                                potencia te dará el mismo número obtenido.
                             </p>
 
                         </div>
-                        <h5>TCP/IP</h5>
+                        <h5>IPV6</h5>
                         <div class=" col-10 offset-1">
-                            <a href="#" > <img src="{{asset('imagenes/tcpip.png')}}" width="400" height="500"></a>
+                            <a href="#" > <img src="{{asset('imagenes/ipv6.png')}}" width="400" height="400"></a>
                             <p align="justify">
-                                TCP/IP son las siglas de Transmission Control Protocol/Internet Protocol
-                                (Protocolo de control de transmisión/Protocolo de Internet). TCP/IP es un conjunto de reglas
-                                estandarizadas que permiten a los equipos comunicarse en una red como Internet.
-                                Una interacción determinada puede darse entre dos sistemas informáticos o involucrar
-                                cientos de sistemas. Sin embargo, como sucede al pasar una carta o un paquete de mano en mano,
-                                cada transacción se produce entre solo dos equipos cada vez. Para que esto suceda, los dos equipos
-                                deben saber, por adelantado, cómo se espera que se comuniquen.
+                                Las direcciones IPv6 están basadas en 128 bits. Usando la misma matemática anterior, nosotros tenemos 2 elevado a la 128va
+                                potencia para encontrar el total de direcciones IPv6 totales, mismo que se mencionó anteriormente. Ya que el espacio en IPv6
+                                es mucho más extenso que el IPv4 sería muy difícil definir el espacio con notación decimal... se tendría 2 elevado a la 32va
+                                potencia en cada sección.
                             </p>
                             <p align="justify">
-                                TCP e IP son dos protocolos distintos para redes informáticas.
+                                Para permitir el uso de esa gran cantidad de direcciones IPv6 más fácilmente, IPv6 está compuesto por ocho secciones de 16 bits,
+                                separadas por dos puntos (:). Ya que cada sección es de 16 bits, tenemos 2 elevado a la 16 de variaciones (las cuales son 65,536
+                                distintas posibilidades). Usando números decimales de 0 a 65,535, tendríamos representada una dirección bastante larga, y para facilitarlo
+                                es que las direcciones IPv6 están expresadas con notación hexadecimal (16 diferentes caracteres: 0-9 y a-f).
 
                             </p>
                             <p align="justify">
-                                IP es la parte que obtiene la dirección a la que se envían los datos. TCP se encarga de la
-                                entrega de los datos una vez hallada dicha dirección IP.
+                                Ejemplo de una dirección IPv6: 2607 : f0d0 : 4545 : 3 : 200 : f8ff : fe21 : 67cf
+
+                                que sigue siendo una expresión muy larga pero es más manejable que hacerlo con alternativas decimales.
 
                             </p>
-                            <p align="justify">
 
-                                Es posible separarlos, pero lo cierto es que no tiene mucho sentido diferenciar entre TCP e IP.
-                                Como se usan juntos tan habitualmente, “TCP/IP” y “modelo TCP/IP” son ya terminología reconocida.
-
-                            </p>
-                            <p align="justify">
-
-                                Mírelo de esta forma: La dirección IP es como el número de teléfono que se asigna a su smartphone.
-                                TCP es toda la tecnología que hace que el teléfono emita un timbre al recibir una llamada y que le
-                                permite hablar con alguien al otro lado de la línea. Son cosas diferentes, pero tampoco tienen sentido la una sin la otra.
-                            </p>
 
                         </div>
 

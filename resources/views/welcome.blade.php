@@ -26,7 +26,7 @@
         <div class="links">
             <a href="{{route('document')}}"> <img src="{{asset('imagenes/Doc.png')}}" width="100" height="100">Documentación</a>
             <a href="https://github.com/MRpintoM/Lenet_Project" > <img src="https://github.com/fluidicon.png" width="100" height="100">Código fuente</a>
-            <a href="#"> <img src="{{asset('imagenes/config.png')}}" width="100" height="100">Configuraciones</a>
+            <a href="{{route('configuracion')}}"> <img src="{{asset('imagenes/config.png')}}" width="100" height="100">Configuraciones</a>
 
         </div>
     </div>
